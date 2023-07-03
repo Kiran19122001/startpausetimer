@@ -1,0 +1,108 @@
+.main-cont {
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, #defafe, #cffcf1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-cont {
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.timer-icons {
+    height: 40px;
+    width: 40px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    background-color: transparent;
+}
+
+.timer-box {
+    background: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 285px;
+    width: 437px;
+}
+
+.inside-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    background-color: #ffffff;
+    width: 152px;
+    margin-left: 143px;
+    margin-top: 65px;
+    border-radius: 100px;
+}
+
+.timer-watch {
+    color: #00d9f5;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.state-time {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.buttons-cont {
+    display: flex;
+    align-items: center;
+}
+
+.last-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 44px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttons-s-r {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.set-timer {
+    font-size: 20px;
+}
+
+.operators {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.count {
+    height: 40px;
+    width: 50px;
+    background: linear-gradient(to right, #cffcf1, #00d9f5);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+}
